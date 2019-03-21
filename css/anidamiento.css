@@ -1,0 +1,18 @@
+.row{
+    background-color: rgba(152, 0, 0, 0.3);
+    text-align: center;
+}
+
+.columna{
+    background-color: blueviolet;
+    text-align: center;
+    border: 5px solid red;
+}
+.container{
+    margin-top: 20px;
+}
+.columnaInferior{
+    background-color: gray;
+    border: 10px solid silver;
+    padding: 10px;
+}
