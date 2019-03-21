@@ -1,0 +1,32 @@
+body {
+    background-color: lavender;
+}
+
+header {
+    background-color: greenyellow;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+main {
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+aside {
+    background-color: gray;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+.columna {
+    background-color: blue;
+    color: white;
+    margin-bottom: 15px;
+    padding: 10px auto;
+}
