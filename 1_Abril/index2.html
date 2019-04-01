@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 mb-3">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Ingrese su Nombre"
+                            aria-describedby="helpId">
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-md-6 mb-3>
+                <div class=" form-group">
+                <label for="contrasena">Contraseña</label>
+                <input type="password" name="contrasena" id="contrasena" class="form-control"
+                    placeholder="Ingrese una contraseña" aria-describedby="helpId">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12 col-sm-12 col-md-6 col-lg-12">
+                <form action="">
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" name="mensaje" id="mensaje" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xl-12 col-sm-12 col-md-6 col-lg-12">
+                <div class="form-group">
+                    <label for="pais">Pais</label>
+                    <select class="form-control" name="pais" id="pais">
+                        <option value="mexico">Mexico</option>
+                        <option value="espana">Espana</option>
+                        <option value="colombia">Colombia</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-xl-12 col-sm-12 col-md-6 col-lg-12">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="sexo" id="hombre">
+                        Hombre
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="sexo" id="mujer">
+                        Mujer
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="aceptar" id="aceptar">
+                        Acepto terminos y condiciones.
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
